@@ -1,0 +1,31 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.segment-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  margin: 0 5px;
+  border: 1px solid #007BFF;
+  background-color: #fff;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.button.active {
+  background-color: #007BFF;
+  color: #fff;
+}
+
+.display-text {
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: bold;
+}
